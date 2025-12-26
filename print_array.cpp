@@ -27,8 +27,12 @@ int main(){
     vec.pop_back();
     cout << vec.size() << endl;
     cout << vec.capacity() << endl;
-    
 
+  vec.erase(vec.begin());
+   for(int val:vec) 
+    {
+      cout << val<<"after erase first elements" << endl;
+    }
 
 
 
