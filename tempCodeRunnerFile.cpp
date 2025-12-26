@@ -1,1 +1,4 @@
-cout<<val<<endl
+for(int val:vec) 
+    // {
+    //   cout << val << endl;
+    // }
